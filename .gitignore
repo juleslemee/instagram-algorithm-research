@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Credentials and sensitive data
+input/keys/credentials.py
+input/keys/openai_key.py
+input/db/users.csv
+
+# Data files (may contain personal info)
+output/
+*.csv
+*.json
+*.pickle
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SLURM and cluster files
+slurm*.out
+slurm*.err
+*run/
+*.pickle
+
+# Logs
+*.log
+
+# Part 1 
+research-part-1/input/logging_client_events
+research-part-1/input/aws
+research-part-1/__pycache__/
+research-part-1*.pyc
+research-part-1/.venv
